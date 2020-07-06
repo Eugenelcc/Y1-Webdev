@@ -1,0 +1,18 @@
+#lists{
+  border:solid;
+  text-align: center;
+}
+th{
+  border:solid;
+  background-color: #0066ff;
+  padding:5PX;
+}
+table{
+  text-align: center;
+}
+.feedbacklist{
+  text-align: center;
+}
+td{
+  border-left:solid;
+}

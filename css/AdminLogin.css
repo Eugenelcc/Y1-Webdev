@@ -1,0 +1,162 @@
+body{
+  text-align:center;
+  font-family:"Raleway", sans-serif;
+  margin:0px;
+}
+.Blog{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  font-size: 40px;
+  border-radius:10px;
+  margin-left: 38%;
+  margin-right: 35%;
+  background-color: #99ccff;
+  border-radius:10px;
+  border:solid;
+}
+nav ul {
+  width:600px;
+  list-style-type:none;
+  margin:10px auto;
+	padding:0px auto;
+  background-color:white;
+}
+nav ul li {
+  display:inline-block;
+  font-size:100%;
+}
+nav ul li a{
+  color:black;
+  border: 2px;
+  border-radius:10px;
+  display:inline-block;
+  width:100px;
+  padding:5px;
+  text-decoration:none;
+  text-align:center;
+}
+header{
+  background:white;
+}
+.Instagram{
+  display:inline-block;
+  position: absolute;
+  margin:0.5% 16%;
+  color:rgba(238, 46, 140, 0.75)
+}
+.Facebook{
+  display:inline-block;
+  position: absolute;
+  margin:0.5% 22%;
+  color:rgb(0, 102, 255);
+}
+.Twitter{
+  display:inline-block;
+  position: absolute;
+  margin:0.5% 19%;
+  color:rgb(15, 187, 236);
+}
+.Discord{
+  display:inline-block;
+  position: absolute;
+  margin:0.5% 25%;
+  color:rgba(98, 137, 213, 0.84);
+}
+.Reddit{
+  display:inline-block;
+  position: absolute;
+  margin:0.5% 28%;
+  color:#ff4500;
+}
+.Steam{
+  display: inline-block;
+  position: absolute;
+  margin:0.5% 31%;
+  color:rgb(51, 102, 255);
+}
+.iconH{
+  padding-bottom:5%;
+}
+.iconA{
+  padding-bottom:5%;
+}
+.iconC{
+  padding-bottom:5%;
+}
+.iconD{
+  padding-bottom:5%;
+}
+.home :hover{
+  color:#ff9999;
+}
+.About :hover{
+  color:#99e6ff
+}
+.Interest :hover{
+  color:#99ffcc
+}
+.Something :hover{
+  color:#b399ff
+}
+.img{
+  background-image: url('../image/jezael-melgoza-974061-unsplash.jpg');
+  padding:200px ;
+  background-size:cover;
+  height:200px;
+  width:auto%;
+  margin-left:3%;
+  margin-right:3%;
+  color:white;
+  width:auto;
+}
+h1{
+  font-size:50px;
+  font-family:'Shadows Into Light Two';
+}
+#WD{
+  font-style:italic;
+  color:#ff99b3	;
+}
+.header_discription{
+  text-align: left;
+}
+.byline{
+  font-weight:bold;
+}
+.contactus{
+  margin:3%;
+}
+input[type="button"]{
+  border:solid black;
+  border-radius: 20px;
+  padding:5px 15px;
+  cursor: pointer;
+  background-color: #ff3399;
+  color:white;
+
+}
+input[type="button"]:hover{
+  border:solid black;
+  border-radius: 20px;
+  padding:5px 15px;
+  cursor: pointer;
+  background-color: #0099ff;
+  color:black;
+}
+input[type="text"],input[type="password"]{
+  border:solid;
+  border-radius:10px;
+  padding:5px;
+  text-align: center
+
+}
+.border{
+
+  height:10px; ;
+  weight:2px;;
+}
+label[type="admin"]{
+  display:inline-block;
+  margin-bottom: 5%;
+}

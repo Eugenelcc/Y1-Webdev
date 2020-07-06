@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--Home, About Me, Interest, Songs, Education, Pets ,Stuff, Others, Links-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Webpage</title>
+    <link rel="stylesheet" type ="text/css" href="../css/AdminLogin.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Rubik&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+      	<script src="../JS/LocalStorage.js"></script>
+    <script src="https://kit.fontawesome.com/f40c1a5a29.js"></script>
+  </head>
+  <body>
+    <div class="Blog">
+      Eugene's Blog
+    </div>
+    <header>
+      <nav>
+        <ul>
+          <li class="home">
+            <a href="Parallax.html">
+            <div class="iconH"><i class="fas fa-home fa-lg"></i></div>
+            Home</a></li>
+          <li class="About">
+            <a href="About.html">
+            <div class="iconA"><i class="fas fa-user-alt fa-lg"></i></div>
+            About Me</a></li>
+          <li class = "Interest">
+            <a href="Contact.html">
+            <div class="iconC"><i class="fas fa-id-card fa-lg"></i></div>
+            Contact</a></li>
+            <li class = "Something">
+              <a href="Live Diary.html">
+                <div class="iconD"><i class="fas fa-book fa-lg"></i></div>
+                Live Diary</a></li>
+                <a href ="https://www.instagram.com/eugzine/?hl=en"target="_blank"
+              <div class="Instagram"><i class="fab fa-instagram  fa-lg"></i> </div></a>
+              <a href ="https://twitter.com/"target="_blank"
+            <div class="Twitter"><i class="fab fa-twitter  fa-lg"></i></i> </div></a>
+            <a href ="https://www.facebook.com/"target="_blank"
+          <div class="Facebook"><i class="fab fa-facebook-square  fa-lg"></i></i> </div></a>
+          <a href ="https://discordapp.com"target="_blank"
+        <div class="Discord"><i class="fab fa-discord fa-lg"></i></i> </div></a>
+        <a href="https://www.reddit.com/r/singapore/"target="_blank"
+        <div class="Reddit"><i class="fab fa-reddit-alien fa-lg"></i></div></a>
+        <a href="https://store.steampowered.com/"target="_blank"
+        <div class="Steam"><i class="fab fa-steam fa-lg"></i></div></a>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <!-- Main -->
+    <div id="main">
+      <div class="container">
+        <div class="row">
+
+          <!-- Content -->
+          <div class="slide_bg">
+          <div id="content" class="12u skel-cell-important">
+  <div class="border">
+            <section>
+              <header>
+
+                <h2>Admin Login</h2>
+                <span class="byline">Please enter your account info ! </span>
+              </header>
+                <form class="contactus">
+                  <label for="admin">Admin ID:</label>
+                  <br>
+                  <input type="text" name="admin" placeholder="Admin ID" class="textfield" id="admin">
+                  <br>
+                  <br>
+                  <label for="adminPass">Admin Password:</label>
+                  <br>
+                  <input type="password" name="adminPass" placeholder="Password" class="textfield" id="adminPass">
+                  <br><br>
+                  <input type="button" class="submit" id="login" value="Login" onclick="validateLogin()">
+              </form>
+            </section>
+            </div>
+          </div>
+</div>
